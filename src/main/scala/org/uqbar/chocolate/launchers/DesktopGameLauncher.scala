@@ -3,7 +3,7 @@ package org.uqbar.chocolate.launchers
 import java.awt.event.WindowEvent
 import java.awt.event.WindowListener
 import scala.reflect.runtime.universe.runtimeMirror
-import org.uqbar.math.vectors._
+import org.uqbar.math.spaces.R2._
 import org.uqbar.chocolate.core.Game
 import org.uqbar.chocolate.core.GamePlayer
 import org.uqbar.chocolate.core.exceptions.GameException
@@ -23,6 +23,7 @@ import java.awt.Graphics2D
 import org.uqbar.chocolate.core.loaders.ResourceLoader
 import java.awt.image.BufferStrategy
 import java.awt.Dimension
+import org.uqbar.cacao.awt.implicits._
 
 object DesktopGameLauncher {
 
